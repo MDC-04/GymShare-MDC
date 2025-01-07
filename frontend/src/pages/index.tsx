@@ -1,18 +1,10 @@
-import Head from "next/head";
+import { Seo } from "@/ui/components/seo";
 
 export default function Home() {
   return (
     <>
-      <Head>
-        <title>MDC GymShare</title>
-        name="description"
-        <meta name="description" content="Description..." />
-        <meta
-          name="viewport"
-          content="width=device-width, initial-scale=1"
-        />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+      <Seo title="GymShare-MDC" description="On verra plus tard.." />
+      <h1>100KG Bench Press</h1>
     </>
   );
 }
